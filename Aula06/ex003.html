@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    # head == HTML
+<head>
+    <!-- Comentario em HTML -->>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style> /* STYLE = CSS*/
+        body {
+            font: normal 20pt arial;
+            color: white; /* comentario em css */
+            background-image: url('lula-hang-loose.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, PETISTA!</h1>
+    <script>/*jAVASCRIPT*/
+        var n1 = Number.parseInt(window.prompt('Digite um numero!'))
+        var n2 = Number.parseInt(window.prompt('Digite outro numero!'))
+        var sum = (n1 + n2)
+        window.alert('A soma entre os dois numeros é: ' + sum)
+        window.alert(`A soma entre ${n1} e ${n2} é ${sum}`)
+        
+        /* 
+            (number + number) para adiçao
+            (string + string) para concatenação
+        String para numero: 
+            Numer.parseInt(n) -> NUMEROS INTEIROS
+            Number.parseFloat(n) -> NUMEROS REAIS
+            Number(n) -> NUMEROS INTEIROS E REAIS
+        Numero para string:
+            String(n)
+            n.toString(n)
+
+
+
+        `A soma entre os numeros é ${sum}`-> crase para format com ${}
+        */
+    </script>
+</body>
+</html>
