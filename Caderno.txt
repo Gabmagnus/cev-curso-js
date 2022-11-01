@@ -1,0 +1,8 @@
+CURSO DE JS
+
+
+JS != jAVA
+javascript funciona principalmente clientside
+javascript tem varias variaveis para rodar em serverside e em aplicativos.
+Echma script 6 == javascript padronizado europeu.
+
