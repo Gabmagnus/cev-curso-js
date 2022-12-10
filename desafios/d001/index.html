@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button {
+            width: 150px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <button class="button" id="b1" onclick="buttonMessageBox(1)" type="button">Botao 1</button>
+    <button class="button" id="b2" onclick="buttonMessageBox(2)" type="button">Botao 2</button>
+    <button class="button" id="b3" onclick="buttonMessageBox(3)" type="button">Botao 3</button>
+</body>
+
+    <script>
+
+        quer
+        buttonMessageBox = function(n) {
+            if(document.querySelector('#b1')) {
+                window.alert(`Você clicou no botao ${n}`)
+            } else if(document.querySelector('#b2')) {
+                window.alert(`Você clicou no botão ${n}`)
+            } else if(document.querySelector('#b3')) {
+                window.alert(`Você clicou no botao ${n}`)
+            }
+            
+        }
+    </script>
+</html>
